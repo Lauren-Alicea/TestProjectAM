@@ -20,6 +20,8 @@ struct ContentView: View {
         }
             Ellipse()
                 .frame(width: 100, height: 60)
+                .background(Color.green)
+                .foregroundColor(.blue)
     }
   }
 }
