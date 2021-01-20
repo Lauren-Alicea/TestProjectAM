@@ -9,9 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        VStack {
         Text("Goodmoring!")
             .padding()
+        Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) {
+            Text("Hit me!")
+                .bold()
+                .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 50)
+                .background(Color.gray)
+        }
     }
+  }
 }
 
 struct ContentView_Previews: PreviewProvider {
