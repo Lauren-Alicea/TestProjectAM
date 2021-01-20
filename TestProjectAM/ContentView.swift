@@ -18,6 +18,8 @@ struct ContentView: View {
                 .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 50)
                 .background(Color.gray)
         }
+            Ellipse()
+                .frame(width: 100, height: 60)
     }
   }
 }
